@@ -288,7 +288,7 @@ start:-
     ;write('')),
 
     /** QUESTION - FAMOUS HIST FIGURES **/
-    (KindOfBook == 'scientific_or_technology' ->
+    (KindOfBook == 'narrative' ->
         (LearningAboutDiffCivi == 'yes' ->
             (FictionalUniverse == 'not_interested' ->
                 write('   Histories of famous historical figures?'),nl,
